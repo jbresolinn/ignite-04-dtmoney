@@ -2,13 +2,10 @@ import styled, { css } from 'styled-components'
 
 export const SummaryContainer = styled.section`
   background: transparent;
-  padding: 2.5rem 0 7.5rem;
 `
 
 export const SummaryContent = styled.div`
-  max-width: 1120px;
-  margin: -5rem auto 0;
-  padding: 0 1.5rem;
+  margin: -5rem 0 0;
 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
