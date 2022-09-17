@@ -21,4 +21,12 @@ export const GlobalStyle = createGlobalStyle`
   body, input, textarea, button {
     font: 400 1rem ${(props) => props.theme.fonts.default}
   }
+
+  button, a {
+    cursor: pointer;
+
+    &:disabled {
+      cursor: not-allowed;
+    }
+  }
 `
