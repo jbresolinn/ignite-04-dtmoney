@@ -25,6 +25,7 @@ export const SearchFormContainer = styled.form`
       background: transparent;
       border: 0;
       color: ${(props) => props.theme.colors['gray-300']};
+      text-overflow: ellipsis;
 
       &::placeholder {
         color: ${(props) => props.theme.colors['gray-500']};
