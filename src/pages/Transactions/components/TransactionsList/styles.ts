@@ -4,7 +4,7 @@ export const TransactionsListContainer = styled.table`
   width: 100%;
   border-collapse: separate;
   border-spacing: 0 0.5rem;
-  /* margin: 1.5rem 0 0; */
+  margin: 1.5rem 0 0;
 
   td {
     padding: 1.25rem 2rem;
