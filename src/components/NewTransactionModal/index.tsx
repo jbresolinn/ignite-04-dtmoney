@@ -1,5 +1,4 @@
 import * as AlertDialog from '@radix-ui/react-alert-dialog'
-import * as RadioGroup from '@radix-ui/react-radio-group'
 import { ArrowCircleDown, ArrowCircleUp, X } from 'phosphor-react'
 import {
   CloseButton,
@@ -11,7 +10,6 @@ import {
 
 export function NewTransactionModal() {
   return (
-    // <NewTransactionContainer>
     <AlertDialog.Portal>
       <Overlay />
       <Content>
@@ -41,6 +39,5 @@ export function NewTransactionModal() {
         </form>
       </Content>
     </AlertDialog.Portal>
-    // </NewTransactionContainer>
   )
 }
