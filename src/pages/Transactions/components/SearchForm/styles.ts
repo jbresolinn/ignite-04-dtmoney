@@ -8,7 +8,7 @@ export const SearchFormContainer = styled.form`
   gap: 1rem;
 
   fieldset {
-    width: 100%;
+    flex: 1;
     border: 1px solid transparent;
 
     border-radius: 6px;
