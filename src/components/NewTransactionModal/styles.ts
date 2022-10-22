@@ -51,8 +51,12 @@ export const Content = styled(AlertDialog.Content)`
       margin: 1.5rem 0 0;
       transition: background 0.2s;
 
-      &:hover {
+      &:not(:disabled):hover {
         background: ${(props) => props.theme.colors['green-300']};
+      }
+
+      &:disabled {
+        opacity: 0.6;
       }
     }
   }

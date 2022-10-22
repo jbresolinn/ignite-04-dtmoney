@@ -68,4 +68,8 @@ export const SearchButton = styled.button`
       color: ${(props) => props.theme.colors.white};
     }
   }
+
+  &:disabled {
+    opacity: 0.6;
+  }
 `
